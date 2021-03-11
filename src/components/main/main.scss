@@ -1,0 +1,40 @@
+.main-container {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+
+  .player-container {
+    margin-top: 10px;
+    .player-input {
+      width: 280px;
+      height: 30px;
+      margin-left: 10px;
+      border: 1px solid black;
+      margin-bottom: 15px;
+
+      &:first-line {
+        display: inline-block;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .play-button {
+      width: 280px;
+      height: 35px;
+      background-color: #54C800;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
