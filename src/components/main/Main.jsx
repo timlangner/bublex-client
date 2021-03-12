@@ -4,19 +4,37 @@ import './main.scss';
 const Main = () => {
     return (
         <div className="main-container">
-            <div className="player-container">
-                <input
-                    className="player-input"
-                    placeholder="Nickname"
-                    maxLength={20}
-                />
+            <input
+                className="player-input"
+                placeholder="Nickname"
+                maxLength={20}
+            />
+            <div className="ad-wrapper">
+                <div className="center">
+                    <p>Advertisement</p>
+                </div>
+                <div className="ad-container" />
+            </div>
+            <div className="duo-buttons">
                 <button
-                    className="play-button"
+                    className="settings-button"
                     onClick={console.log}
                 >
-                    Play
+                    Settings
+                </button>
+                <button
+                    className="spectate-button"
+                    onClick={console.log}
+                >
+                    Spectate
                 </button>
             </div>
+            <button
+                className="play-button"
+                onClick={console.log}
+            >
+                Play
+            </button>
         </div>
     );
 };

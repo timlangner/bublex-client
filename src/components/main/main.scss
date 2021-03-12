@@ -1,40 +1,94 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .main-container {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 330px;
   background-color: white;
   border-radius: 5px;
 
-  .player-container {
-    margin-top: 10px;
-    .player-input {
-      width: 280px;
-      height: 30px;
-      margin-left: 10px;
-      border: 1px solid black;
-      margin-bottom: 15px;
+  .player-input {
+    width: 294px;
+    height: 35px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 
-      &:first-line {
-        display: inline-block;
-      }
+    &:first-line {
+      display: inline-block;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .ad-wrapper {
+    margin-bottom: 15px;
+    p {
+      font-size: 10px;
+      height: 10px;
+    }
+    .ad-container {
+      width: 300px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      margin-left: 15px;
+      background-color: rgba(109, 118, 126, 0.3);
+    }
+  }
+
+  .duo-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    .settings-button {
+      width: 147px;
+      height: 35px;
+      background-color: #376AE0;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
 
       &:focus {
         outline: none;
       }
     }
 
-    .play-button {
-      width: 280px;
+    .spectate-button {
+      width: 147px;
       height: 35px;
-      background-color: #54C800;
+      background-color: #376AE0;
       color: white;
       border-radius: 5px;
       border: none;
-      margin-left: 10px;
+      margin-left: 5px;
       cursor: pointer;
 
       &:focus {
         outline: none;
       }
+    }
+  }
+
+  .play-button {
+    width: 300px;
+    height: 35px;
+    background-color: #54C800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
     }
   }
 }

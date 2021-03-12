@@ -1,6 +1,7 @@
 html, body {
     height: 100% !important;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 #root {
