@@ -4,4 +4,39 @@
   border-radius: 5px;
   background-color: white;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-wrapper {
+    width: 300px;
+    height: 75px;
+    padding: 15px;
+
+    .login-button {
+      height: 35px;
+      width: 100%;
+      background-color: #7289DA;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-size: 15px;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
 }
