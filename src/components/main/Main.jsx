@@ -1,5 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay, faEye, faCogs} from "@fortawesome/free-solid-svg-icons";
 import './main.scss';
+import {faDiscord} from "@fortawesome/free-brands-svg-icons";
 
 const Main = () => {
     return (
@@ -20,20 +23,20 @@ const Main = () => {
                     className="settings-button"
                     onClick={console.log}
                 >
-                    Settings
+                    <FontAwesomeIcon icon={faCogs} />
                 </button>
                 <button
                     className="spectate-button"
                     onClick={console.log}
                 >
-                    Spectate
+                    <FontAwesomeIcon icon={faEye} />
                 </button>
             </div>
             <button
                 className="play-button"
                 onClick={console.log}
             >
-                Play
+                <FontAwesomeIcon icon={faPlay} />
             </button>
         </div>
     );
