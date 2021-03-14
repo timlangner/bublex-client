@@ -12,12 +12,6 @@ const Main = () => {
                 placeholder="Nickname"
                 maxLength={20}
             />
-            <div className="ad-wrapper">
-                <div className="center">
-                    <p>Advertisement</p>
-                </div>
-                <div className="ad-container" />
-            </div>
             <div className="duo-buttons">
                 <button
                     className="settings-button"
@@ -38,6 +32,12 @@ const Main = () => {
             >
                 <FontAwesomeIcon icon={faPlay} />
             </button>
+            <div className="ad-wrapper">
+                <div className="center">
+                    <p>Advertisement</p>
+                </div>
+                <div className="ad-container" />
+            </div>
         </div>
     );
 };

@@ -6,18 +6,21 @@
 .main-container {
   height: 450px;
   width: 330px;
-  background-color: white;
+  background-color: rgba(35, 35, 35, 0.6);
   border-radius: 5px;
+  box-shadow: inset 0 0 0 3px #232323;
 
   .player-input {
-    width: 286px;
+    width: 87%;
     height: 35px;
     margin-left: 15px;
-    border: 1px solid black;
+    border: 2px solid #8D8D8D;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 15px;
     padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
 
     &:focus {
       outline: none;
@@ -25,19 +28,21 @@
   }
 
   .ad-wrapper {
-    margin-bottom: 15px;
+    margin: 15px 0 15px 0;
     p {
-      font-size: 10px;
-      height: 10px;
+      font-size: 11px;
+      height: 0px;
       font-family: 'Roboto', sans-serif;
+      color: white;
     }
     .ad-container {
       width: 300px;
       height: 250px;
+      margin-top: 10px;
       display: flex;
       justify-content: center;
       margin-left: 15px;
-      background-color: rgba(109, 118, 126, 0.3);
+      background-color: rgba(0, 0, 0, 0.3);
     }
   }
 
@@ -48,10 +53,10 @@
     .settings-button {
       width: 147px;
       height: 35px;
-      background-color: #376AE0;
+      background-color: #1554A2;
       color: white;
       border-radius: 5px;
-      border: none;
+      border: 2px solid #003984;
       font-size: 18px;
 
       &:focus {
@@ -59,7 +64,7 @@
       }
 
       &:hover {
-        opacity: 0.9;
+        opacity: 0.7;
         cursor: pointer;
       }
     }
@@ -67,10 +72,10 @@
     .spectate-button {
       width: 147px;
       height: 35px;
-      background-color: #376AE0;
+      background-color: #DE7000;
       color: white;
       border-radius: 5px;
-      border: none;
+      border: 2px solid #A24100;
       margin-left: 5px;
       font-size: 18px;
 
@@ -79,19 +84,19 @@
       }
 
       &:hover {
-        opacity: 0.9;
+        opacity: 0.7;
         cursor: pointer;
       }
     }
   }
 
   .play-button {
-    width: 300px;
+    width: 90%;
     height: 35px;
-    background-color: #54C800;
+    background-color: #00F100;
     color: white;
     border-radius: 5px;
-    border: none;
+    border: 2px solid #1FA100;
     margin-left: 15px;
     font-size: 18px;
 
@@ -100,7 +105,7 @@
     }
 
     &:hover {
-      opacity: 0.9;
+      opacity: 0.7;
       cursor: pointer;
     }
   }
