@@ -1,0 +1,28 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: rgba(109, 118, 126, 0.3);
+  color: white;
+
+  &:hover {
+    background-color: #DE7000;
+    cursor: pointer;
+  }
+
+  .button-items {
+    text-align: center;
+
+    &--icon {
+      font-size: 25px;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 8px;
+    }
+  }
+}
