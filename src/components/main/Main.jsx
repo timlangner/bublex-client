@@ -26,12 +26,14 @@ const Main = () => {
                     <FontAwesomeIcon icon={faEye} />
                 </button>
             </div>
-            <button
-                className="play-button"
-                onClick={console.log}
-            >
-                <FontAwesomeIcon icon={faPlay} />
-            </button>
+            <div className="play-button--wrapper">
+                <button
+                    className="play-button"
+                    onClick={console.log}
+                >
+                    <FontAwesomeIcon icon={faPlay} />
+                </button>
+            </div>
             <div className="ad-wrapper">
                 <div className="center">
                     <p>Advertisement</p>
