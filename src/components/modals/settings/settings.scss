@@ -1,0 +1,28 @@
+.settings-modal-content {
+  background-color: #353535 !important;
+  color: white;
+
+  .modal-header {
+    border-bottom: none;
+    background-color: rgba(35, 35, 35, 1);
+
+    span {
+      color: white;
+    }
+  }
+
+  .label-group {
+    height: 40px;
+    width: 200px;
+    border: 1px solid rgba(35, 35, 35, 1);
+    background-color: rgb(47, 47, 47);
+    user-select: none;
+
+    input {
+      height: 18px;
+      width: 18px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+}
