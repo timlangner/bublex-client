@@ -1,0 +1,37 @@
+.restore-defaults--container {
+  hr {
+    background-color: #5f5f5f;
+    height: 1px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .restore-defaults--header {
+    font-size: 12px;
+    font-weight: bold;
+    color: #c1c1c1;
+    margin: 0;
+  }
+
+  .restore-defaults--text {
+    color: #c1c1c1;
+    margin-bottom: 10px;
+  }
+
+  .restore-defaults--button {
+    height: 35px;
+    background-color: #666666;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #7e7e7e;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+}
