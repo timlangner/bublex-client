@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import './generalPage.scss';
 import RestoreDefaults from "../../restoreDefaults/RestoreDefaults";
+import './generalPage.scss';
 
 const GeneralPage = () => {
     const [hideHats, setHideHats] = useState(false);
