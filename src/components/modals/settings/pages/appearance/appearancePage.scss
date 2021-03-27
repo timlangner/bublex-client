@@ -1,0 +1,20 @@
+hr {
+  background-color: #5f5f5f !important;
+  height: 1px !important;
+  margin-right: 10px !important;
+  border-radius: 5px !important;
+}
+
+.slider-wrapper {
+  margin-right: 10px;
+  margin-bottom: -5px;
+  user-select: none;
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #c1c1c1;
+    margin: 0;
+    user-select: none;
+  }
+}
