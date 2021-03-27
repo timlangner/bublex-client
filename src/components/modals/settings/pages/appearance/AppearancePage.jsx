@@ -70,7 +70,7 @@ const AppearancePage = () => {
                     </label>
                 </div>
             </div>
-            <hr />
+            <hr className="dividing-line" />
             <div className="slider-wrapper">
                 <p>ANIMATION DELAY</p>
                 <PrettoSlider
