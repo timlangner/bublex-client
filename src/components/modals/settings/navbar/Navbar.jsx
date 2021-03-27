@@ -6,19 +6,19 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
         <nav>
             <div>
                 <button
-                    style={selectedPage == 0 ? {backgroundColor: '#353535'} : null}
+                    style={selectedPage == 0 ? {backgroundColor: '#353535', borderLeft: '3px solid #DE7000'} : null}
                     onClick={() => setSelectedPage(0)}
                 >
                     General
                 </button>
                 <button
-                    style={selectedPage == 1 ? {backgroundColor: '#353535'} : null}
+                    style={selectedPage == 1 ? {backgroundColor: '#353535', borderLeft: '3px solid #DE7000'} : null}
                     onClick={() => setSelectedPage(1)}
                 >
                     Appearance
                 </button>
                 <button
-                    style={selectedPage == 2 ? {backgroundColor: '#353535'} : null}
+                    style={selectedPage == 2 ? {backgroundColor: '#353535', borderLeft: '3px solid #DE7000'} : null}
                     onClick={() => setSelectedPage(2)}
                 >
                     Keybinds
