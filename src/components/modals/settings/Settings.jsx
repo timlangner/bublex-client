@@ -14,7 +14,6 @@ const Settings = (props) => {
             {...props}
             size="lg"
             contentClassName="settings-modal-content"
-            aria-labelledby="contained-modal-title-vcenter"
             centered
         >
             <Modal.Header closeButton>
